@@ -3,3 +3,92 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==================== Start of Main Navigation ==================== */
+
+.nav-header {
+    max-height: 20vh;
+    border-bottom: #ccc 1px solid;
+}
+
+.main-nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0;
+    margin: auto;
+}
+
+.main-nav .logo {
+    color: #000;
+    font-size: 2.4rem;
+}
+
+.main-nav .highlight-blue {
+    color: #0d0d4d;
+}
+
+.main-nav form  {
+    display: flex;
+    height: 40px;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #cecece;
+}
+
+.main-nav .search-data {
+    width: 100%;
+    height: 100%;
+    padding: 0 .1rem;
+    font-size: 1.2rem;
+    border: none;
+    font-weight: 500;
+    background: none;
+}
+
+.main-nav button {
+    padding: 0 1rem;
+    margin-left: 0.6rem;
+    color: #fff;
+    font-size: 1.2rem;
+    background: #0d0d4d;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.main-nav .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem 0; */
+}
+
+.main-nav .nav-link {
+    color: #000;
+    font-size: 1.2rem;
+    padding: 0 0 0 1rem;
+}
+
+.main-nav .nav-link:hover {
+    color: #0e0e8f;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+/* ==================== End of Main Navigation ==================== */
